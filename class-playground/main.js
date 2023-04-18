@@ -1,10 +1,7 @@
-class someHTML {
-    constructor(state, theme, html){
-        this.state = state,
-        this.theme = theme,
-        this.html = html
-    }
-    renderH1(){
-        return
-    }
-}
+import User, { printName, printEmail } from "./user.js";
+
+const user = new User('Denzel', 'Echevarria', 'denzel.echevarria@gmail.com')
+console.log(user)
+
+printEmail(user)
+printName(user)
