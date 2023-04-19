@@ -1,4 +1,6 @@
-import User, { printName, printEmail } from "./user.js";
+import User, { printName } from "./user.js";
+import sheet from './css/style.css' assert { type: 'css' }
+document.adoptedStyleSheets = [sheet];
 
 document.querySelector('button').addEventListener('click', generateUser)
 
