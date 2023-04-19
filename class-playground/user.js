@@ -7,8 +7,8 @@ export default class User {
 }
 
 export function printName(user){
-    console.log(`User's name is ${user.firstName} ${user.lastName}`)
+  return document.querySelector('#app').innerText = `User's name is ${user.firstName} ${user.lastName}`
 }
 export function printEmail(user){
-    console.log(`User's email is ${user.email}`)
+    return document.querySelector('#app').innerText =`User's email is ${user.email}`
 }
